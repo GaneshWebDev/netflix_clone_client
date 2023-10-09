@@ -1,0 +1,89 @@
+body{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    font-size: 2.7rem;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+}
+.profile-details_total{
+    display: flex;
+}
+.subscribed_name{
+    background-color: gray;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    border-radius: 2px;
+}
+.subscribed{
+    background-color: gray;
+    font-size: 0.8rem;
+    justify-content: center;
+    height: 30px;
+    width: 130px;
+    border: none;
+    border-radius: 2px;
+    color: white;
+}
+.renewal{
+    font-size: 0.8rem;
+    color: grey;
+}
+.sub-btn{
+    background-color: red;
+    border: none;
+    color: white;
+    height: 30px;
+    width: 100px;
+    font-size: 0.8rem;
+    border-radius: 2px;
+}
+.div_1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.s-btn{
+    display: flex;
+    flex-direction: column;
+}
+.plan{
+    font-size: 0.7rem;
+    color: grey;
+}
+.profile_details_div{
+    display: flex;
+    flex-direction: column;
+}
+.profile_details_div span{
+    margin-bottom: 20px;
+}
+.profile-details{
+    margin-left: 10px;
+    width: 35vw;
+}
+.avatar{
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+}
+.signout{
+    background-color: red;
+    border: none;
+    border-radius: 2px;
+    height: 30px;
+    color: white;
+    cursor: pointer;
+}
